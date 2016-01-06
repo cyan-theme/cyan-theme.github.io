@@ -1,4 +1,4 @@
-utopia-theme-default.github.io
+cyan-theme.github.io
 ==============================
 
-The default CSS theme of http://utopia-game.com
+A CSS theme for http://utopia-game.com
