@@ -149,9 +149,9 @@ body {
     /* positioning and size */
     /* border styling */
     /* internal styling - padding etc. */
-    background-image: url(./images/bk.jpg);
-    background-repeat: no-repeat;
-    background-position: center 200px;
+    /* background-image: url(./images/bk.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center 200px; */
     /* typography */
     /* colors */
     /* display, opacity and special effects */
@@ -378,7 +378,8 @@ h3 {
 }
 
 #game-navigation a {
-    line-height: 0.6em;
+    /* line-height: 0.6em; */
+    line-height: 1.7em;
 }
 
 #game-navigation a:hover {
@@ -1009,5 +1010,24 @@ body.wysiwyg {
 
 .campaigns .campaign-message-intro {
     font-size: 14px;
+}
+
+
+
+/* Third Party
+-------------------------------------------------------------- */
+.reverb-widget {
+    bottom: 0 !important;
+    top: auto !important;
+    box-shadow: unset !important;
+}
+
+.reverb-widget iframe {
+    height: 375px !important;
+}
+
+#upoopu_extension,
+#upoopu_extension_credentials {
+    top: 0;
 }
 
