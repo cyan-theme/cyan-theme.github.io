@@ -1035,4 +1035,13 @@ body.wysiwyg {
     line-height: 1.7em;
 }
 
-
+@media only screen
+and (max-device-width : 767px) {
+/* Styles */
+    .reverb { width: 100%; }
+    .reverb-widget { position: relative !important; width: 100% !important; }
+    div.reverb-widget iframe { width: 100% !important; padding: 10px; font-size: 1.1em; }
+    div.wysiwyg iframe { height: 350px !important; }
+    .scrollbar-handle-container, .scrollbar-handle { width: 20px !important; }
+    .pop-out { margin-right: 10px; }
+}
