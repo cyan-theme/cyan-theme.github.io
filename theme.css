@@ -1040,6 +1040,10 @@ body.wysiwyg {
     height: 15px !important;
 }
 
+#Uniquestextarea {
+    background-color: black;
+}
+
 @media only screen
 and (max-device-width : 767px) {
 /* Styles */
