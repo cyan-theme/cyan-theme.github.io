@@ -60,8 +60,12 @@ body {
     color: white;
 }
 
-#header-navigation div {
+#header {
+    width: 820px;
+}
 
+#header-navigation {
+    left: 230px;
 }
 
 #header-navigation div:hover a  {
